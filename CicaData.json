@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "friendly-name": "final.jpg",
+    "parent-id": null,
+    "child-id": null,
+    "child-objects": [
+      1,
+      2
+    ],
+    "datasource": "assets/0/final.jpg",
+    "source": "https://boards.4channel.org/x/",
+    "source-type": [
+      "social media",
+      "4chan"
+    ],
+    "start": "2012-05-01",
+    "time": null,
+    "pgpsigned": false,
+    "filename": "final.jpg",
+    "filesizekb": 29279,
+    "filetype": "jpg",
+    "imagewidth": 509,
+    "imageheight": 503,
+    "imagetext": "Hello.  We are looking for highly intelligent individuals.  To find them, we have devised a test.\nThere is a message hidden in this image.\n Find it, and it will lead you on the road to finding us.  We look forward to meeting the few that will make it all the way through.\nGood luck.\n3301",
+    "outguess": true,
+    "observations": [
+      "This was the very first image.",
+      "Appended to the image are 61 bytes of ASCII data:\\nTIBERIVS CLAVDIVS CAESAR says \"lxxt>33m2mqkyv2gsq3q=w]O2ntk\""
+    ],
+    "solve": [
+      "tail -61c final.jpg",
+      "Caesar shift -4 to decipher URL to: http://i.imgur.com/m9sYK.jpg",
+      "outguess -r final.jpg final.jpg.txt"
+    ]
+  },
+  {
+    "id": 1,
+    "friendly-name": "decoy duck",
+    "parent-id": 0,
+    "child-id": 1,
+    "child-objects": null,
+    "datasource": "assets/01/m9sYK.jpg",
+    "source": "http://i.imgur.com/m9sYK.jpg",
+    "source-type": [
+      "social media",
+      "imgur"
+    ],
+    "start": null,
+    "time": null,
+    "pgpsigned": false,
+    "filename": "m9sYK.jpg",
+    "filesizekb": 37348,
+    "filetype": "jpg",
+    "imagewidth": 500,
+    "imageheight": 375,
+    "imagetext": "WOOPS\nJust decoys this way.\nLooks like you can't guess how to get the message out.",
+    "outguess": false,
+    "observations": [
+      "The words \"out\" and \"guess\" were a clue to return to the final.jpg and use outguess to retrieve the embedded steganography data."
+    ]
+  },
+  {
+    "id": 2,
+    "friendly-name": "book code 1",
+    "parent-id": 0,
+    "child-id": 2,
+    "child-objects": null,
+    "datasource": "assets/02/final.jpg.txt",
+    "source": "final.jpg",
+    "source-type": [
+      "outguess"
+    ],
+    "start": null,
+    "time": null,
+    "pgpsigned": false,
+    "book-id": 0,
+    "book-name": "The Mabinogion",
+    "author": "Lady Charlotte Guest",
+    "filename": null,
+    "filesizekb": 535,
+    "filetype": "txt",
+    "wordcount": 94,
+    "linesoftext": 83,
+    "charcount": 535,
+    "observations": [
+      "Link to subreddit, book code."
+    ]
+  }
+]
