@@ -18,7 +18,7 @@
       "outguess"
     ],
     "start": "YYYY-MM-DD",
-    "time": "HH-MM-SS"",
+    "time": "HH-MM-SS",
     "pgpsigned": false,
     "filename": "file.txt",
     "filesizekb": 3301,
