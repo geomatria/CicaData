@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Text from the file.\nHow do we deal with really long messages?",
+    "wordcount": 74,
+    "linesoftext": 54,
+    "charcount": 345,
+    "contains-bookcode": true,
+    "bookcode": [
+        "book-id": 0,
+        "bookname": "The Mabinogion",
+        "author": "Lady Charlotte Guest"
+    ]
+  }
+]
