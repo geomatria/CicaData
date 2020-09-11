@@ -5,10 +5,10 @@
     "linesoftext": 54,
     "charcount": 345,
     "contains-bookcode": true,
-    "bookcode": [
-        "book-id": 0,
-        "bookname": "The Mabinogion",
-        "bookauthor": "Lady Charlotte Guest"
+    "book-id": 0,
+    "bookname": "The Mabinogion",
+    "bookauthor": "Lady Charlotte Guest",
+    "booklink": "http://link.to.book"
     ]
   }
 ]
