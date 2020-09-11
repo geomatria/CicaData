@@ -9,7 +9,11 @@
       1,
       2
     ],
-    "datasource": "assets/<id>/<filename>",
+    "related-objects:" [
+      7,
+      44
+    ],
+    "localsource": "assets/<id>/<filename>",
     "source": "https://path.to.source",
     "source-type": [
       "social media",
