@@ -1,9 +1,6 @@
-[
-  {
-    "imagewidth": 509,
-    "imageheight": 503,
-    "imagetext": "Text cointained within the image.\nSo we can manipulate it later.",
-    "outguess": true,
-    "note": "filetype: is handled by obj-common! define it there!"
-  }
-]
+{
+  "imagewidth": 509,
+  "imageheight": 503,
+  "imagetext": "Text cointained within the image.\nSo we can manipulate it later.",
+  "outguess": true
+}

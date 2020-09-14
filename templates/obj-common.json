@@ -1,43 +1,34 @@
-[
-  {
-    "id": 0,
-    "friendly-name": "something friendly",
-    "year": "2012",
-    "parent-id": null,
-    "child-id": null,
-    "child-objects": [
-      1,
-      2
-    ],
-    "related-objects": [
-      7,
-      44
-    ],
-    "localsource": "assets/<id>/<filename>",
-    "source": "https://path.to.source",
-    "source-type": [
-      "social media",
-      "reddit",
-      "url",
-      "outguess"
-    ],
-    "start": "YYYY-MM-DD",
-    "time": "HH-MM-SS",
-    "pgpsigned": false,
-    "filename": "file.txt",
-    "filesizekb": 3301,
-    "filetype": "txt",
-    "observations": [
-      "This is something interesting.",
-      "This was also something interesting."
-    ],
-    "solve": [
-      "This is was a clue.",
-      "This was the next step.",
-      "We disovered a key.",
-      [
-      "keyid:" 0,
-      "key:" "FIRFUMFERENFE"
-      ]
-    ]
-  },
+{
+  "id": 0,
+  "friendlyname": "something friendly",
+  "year": 2012,
+  "parentid": null,
+  "childid": null,
+  "childobjects": [
+    1,
+    2
+  ],
+  "localsource": "assets/<year>/<id>/<filename>",
+  "source": "https://path.to.source",
+  "sourcetype": [
+    "social media",
+    "reddit",
+    "url",
+    "outguess"
+  ],
+  "start": "YYYY-MM-DD",
+  "time": "HH-MM-SS",
+  "pgpsigned": false,
+  "filename": "file.txt",
+  "filesizekb": 3301,
+  "filetype": "txt",
+  "observations": [
+    "This is something interesting.",
+    "This was also something interesting."
+  ],
+  "solve": [
+    "This is was a clue.",
+    "This was the next step.",
+    "We disovered a key."
+  ]
+}

@@ -1,13 +1,11 @@
-[
-  {
-    "text": "Text from the file.\nHow do we deal with really long messages?",
-    "wordcount": 74,
-    "linesoftext": 54,
-    "charcount": 345,
-    "contains-bookcode": true,
-    "book-id": 0,
-    "bookname": "The Mabinogion",
-    "bookauthor": "Lady Charlotte Guest",
-    "booklink": "http://link.to.book"
-  }
-]
+{
+  "text": "Text from the file.\nHow do we deal with really long messages?",
+  "wordcount": 74,
+  "linesoftext": 54,
+  "charcount": 345,
+  "contains-bookcode": true,
+  "book-id": 0,
+  "bookname": "The Mabinogion",
+  "bookauthor": "Lady Charlotte Guest",
+  "booklink": "http://link.to.book"
+}

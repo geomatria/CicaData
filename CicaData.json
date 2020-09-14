@@ -1,20 +1,22 @@
 [
   {
     "id": 0,
-    "friendly-name": "final.jpg",
-    "parent-id": null,
-    "child-id": null,
-    "child-objects": [
+    "friendlyname": "final.jpg",
+    "year": 2012,
+    "parentid": null,
+    "childid": null,
+    "childobjects": [
       1,
       2
     ],
-    "datasource": "assets/0/final.jpg",
+    "localsource": "assets/2012/0-final-jpg/final.jpg",
     "source": "https://boards.4channel.org/x/",
-    "source-type": [
+    "sourcetype": [
       "social media",
-      "4chan"
+      "4chan",
+      "post"
     ],
-    "start": "2012-05-01",
+    "start": "2012-01-05",
     "time": null,
     "pgpsigned": false,
     "filename": "final.jpg",
@@ -25,24 +27,25 @@
     "imagetext": "Hello.  We are looking for highly intelligent individuals.  To find them, we have devised a test.\nThere is a message hidden in this image.\n Find it, and it will lead you on the road to finding us.  We look forward to meeting the few that will make it all the way through.\nGood luck.\n3301",
     "outguess": true,
     "observations": [
-      "This was the very first image.",
+      "This was the very first message released by 3301.",
       "Appended to the image are 61 bytes of ASCII data:\\nTIBERIVS CLAVDIVS CAESAR says \"lxxt>33m2mqkyv2gsq3q=w]O2ntk\""
     ],
     "solve": [
-      "tail -61c final.jpg",
+      "Extract the ASCII data embedded in the image: tail -61c final.jpg",
       "Caesar shift -4 to decipher URL to: http://i.imgur.com/m9sYK.jpg",
-      "outguess -r final.jpg final.jpg.txt"
+      "Extract the steg'd data: outguess -r final.jpg finaloutguess.txt"
     ]
   },
   {
     "id": 1,
-    "friendly-name": "decoy duck",
-    "parent-id": 0,
-    "child-id": 1,
-    "child-objects": null,
-    "datasource": "assets/02/m9sYK.jpg",
+    "friendlyname": "decoy duck",
+    "year": 2012,
+    "parentid": 0,
+    "childid": 1,
+    "childobjects": null,
+    "localsource": "assets/2012/1-m9sYK-jpg/m9sYK.jpg",
     "source": "http://i.imgur.com/m9sYK.jpg",
-    "source-type": [
+    "sourcetype": [
       "social media",
       "imgur"
     ],
@@ -56,38 +59,7 @@
     "imageheight": 375,
     "imagetext": "WOOPS\nJust decoys this way.\nLooks like you can't guess how to get the message out.",
     "outguess": false,
-    "observations": [
-      "The words \"out\" and \"guess\" were a clue to return to the final.jpg and use outguess to retrieve the embedded steganography data."
-    ]
-  },
-  {
-    "id": 2,
-    "friendly-name": "book code 1",
-    "parent-id": 0,
-    "child-id": 2,
-    "child-objects": null,
-    "datasource": "assets/03/final.jpg.txt",
-    "source": "final.jpg",
-    "source-type": [
-      "outguess"
-    ],
-    "start": null,
-    "time": null,
-    "pgpsigned": false,
-    "book-id": 0,
-    "book-name": "The Mabinogion",
-    "author": "Lady Charlotte Guest",
-    "filename": null,
-    "filesizekb": 535,
-    "filetype": "txt",
-    "wordcount": 94,
-    "linesoftext": 83,
-    "charcount": 535,
-    "observations": [
-      "Link to subreddit, book code."
-    ]
-  },
-  {
-    "id":3
+    "observations": "The words \"out\" and \"guess\" were a clue to return to the final.jpg and use outguess to retrieve the embedded steganography data.",
+    "solve": null
   }
 ]
