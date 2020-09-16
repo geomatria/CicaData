@@ -1,11 +1,12 @@
 {
-  "text": "Text from the file.\nHow do we deal with really long messages?",
-  "wordcount": 74,
-  "linesoftext": 54,
-  "charcount": 345,
-  "contains-bookcode": true,
-  "book-id": 0,
-  "bookname": "The Mabinogion",
-  "bookauthor": "Lady Charlotte Guest",
-  "booklink": "http://link.to.book"
+  "textsample": "A short string from the text file, if applicable.",
+  "textfull": "All the text, if the message is not too long. Else, pull the text from the file.",
+  "wordcount": 100,
+  "linesoftext": 10,
+  "charcount": 704,
+  "bookcode": true,
+  "booktitle": "The name of the book",
+  "bookauthor": "The author of the book. More than one? Use an array...",
+  "bookpublished": 2020,
+  "booklink": "https://link.to.online.copy"
 }
