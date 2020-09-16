@@ -3,7 +3,6 @@
   "friendlyname": "something friendly",
   "year": 2012,
   "parentid": null,
-  "childid": null,
   "childobjects": [
     1,
     2
