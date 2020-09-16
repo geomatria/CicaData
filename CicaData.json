@@ -4,7 +4,6 @@
     "friendlyname": "final.jpg",
     "year": 2012,
     "parentid": null,
-    "childid": null,
     "childobjects": [
       1,
       2
@@ -33,7 +32,7 @@
     "solve": [
       "Extract the ASCII data embedded in the image: tail -61c final.jpg",
       "Caesar shift -4 to decipher URL to: http://i.imgur.com/m9sYK.jpg",
-      "Extract the steg'd data: outguess -r final.jpg finaloutguess.txt"
+      "Extract the steg'd data: outguess -r final.jpg outguess1.txt"
     ]
   },
   {
@@ -41,7 +40,6 @@
     "friendlyname": "decoy duck",
     "year": 2012,
     "parentid": 0,
-    "childid": 1,
     "childobjects": null,
     "localsource": "assets/2012/1-m9sYK-jpg/m9sYK.jpg",
     "source": "http://i.imgur.com/m9sYK.jpg",
@@ -61,5 +59,39 @@
     "outguess": false,
     "observations": "The words \"out\" and \"guess\" were a clue to return to the final.jpg and use outguess to retrieve the embedded steganography data.",
     "solve": null
+  },
+  {
+    "id": 2,
+    "friendlyname": "first outguess message.",
+    "year": 2012,
+    "parentid": 0,
+    "childobjects": 3,
+    "localsource": "assets/2012/2-outguess1/outguess1.txt",
+    "source": "final.jpg",
+    "sourcetype": "outguess",
+    "start": null,
+    "time": null,
+    "pgpsigned": false,
+    "filename": "outguess1.txt",
+    "filesizekb": 535,
+    "filetype": "txt",
+    "textsample": "Here is a book code.  To find the book, and more information, go to http://www.reddit.com/r/a2e7j6ic78h0j/",
+    "wordcount": 94,
+    "linesoftext": 83,
+    "charcount": 535,
+    "bookcode": true,
+    "bookname": "The Mabinogion",
+    "bookauthor": "Lady Charlotte Guest",
+    "bookpublished": 1838,
+    "booklink": "https://www.gutenberg.org/files/5160/5160-h/5160-h.htm",
+    "observations": [
+      "This message describes a book code, the title of the book itself is not defined.",
+      "This message contains a link to a subreddit: http://www.reddit.com/r/a2e7j6ic78h0j/"
+    ],
+    "solve": null
+  },
+  {
+    "id": 3,
+    "friendlyname": "subreddit"
   }
 ]
